@@ -14,7 +14,8 @@ Use the SourceMedium MCP tools as the authoritative, read-only path to the conne
 3. For a named metric, use `search_data_catalog`, then `query_metrics`. Prefer `query_metrics` because it compiles SourceMedium's canonical metric definition and filters.
 4. For custom warehouse analysis, use `search_data_catalog` first. Then use `describe_table` for one table, or `describe_tables` for two to four tables. Write SQL only with the physical names those tools return.
 5. Use `run_bigquery_sql` only for custom, cross-table, or refused-metric analysis. Keep it to one read-only `SELECT`, a bounded date range, and aggregate output where possible.
-6. Use `get_account_health` when data seems missing or stale, a source is unavailable, or the user asks about connections or pipeline health. It describes data flow, not advertising performance.
+6. Use `shopify_admin_graphql` or `meta_ads_query` for current provider-native state, or fields not yet synchronized to the warehouse. Discover the available source handle with `get_data_context`; never guess it.
+7. Use `get_account_health` when data seems missing or stale, a source is unavailable, or the user asks about connections or pipeline health. It describes data flow, not advertising performance.
 
 ## Guardrails
 

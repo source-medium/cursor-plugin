@@ -7,7 +7,8 @@
     "name": "SourceMedium",
     "email": "support@sourcemedium.com"
   },
-  "homepage": "https://sourcemedium.com/docs/ai-analyst/connect-from-chatgpt-claude",
+  "publisher": "SourceMedium",
+  "homepage": "https://sourcemedium.com/docs/ai-analyst/connect-an-ai-assistant",
   "repository": "https://github.com/source-medium/cursor-plugin",
   "license": "MIT",
   "keywords": [
