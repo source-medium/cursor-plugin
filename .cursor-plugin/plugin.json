@@ -1,0 +1,23 @@
+{
+  "name": "sourcemedium",
+  "displayName": "SourceMedium",
+  "version": "1.0.0",
+  "description": "Analyze your maintained SourceMedium commerce data in Cursor and Grok Bot.",
+  "author": {
+    "name": "SourceMedium",
+    "email": "support@sourcemedium.com"
+  },
+  "homepage": "https://sourcemedium.com/docs/ai-analyst/connect-from-chatgpt-claude",
+  "repository": "https://github.com/source-medium/cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "sourcemedium",
+    "ecommerce-analytics",
+    "commerce-data",
+    "shopify",
+    "bigquery",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}
