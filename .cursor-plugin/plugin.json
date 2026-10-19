@@ -1,7 +1,7 @@
 {
   "name": "sourcemedium",
   "displayName": "SourceMedium",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze your maintained SourceMedium commerce data in Cursor and Grok Bot.",
   "author": {
     "name": "SourceMedium",
